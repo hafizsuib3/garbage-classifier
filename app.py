@@ -25,7 +25,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # --- Streamlit UI ---
-st.title("♻️ Garbage Classifier (TFLite)")
+st.title("♻️ Garbage Classifier")
 st.write("Upload an image of waste (trash, plastic, paper, metal, glass, cardboard) and let the model predict.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
@@ -49,3 +49,4 @@ if uploaded_file is not None:
 
     st.markdown(f"### 🏷 Prediction: **{pred_class}**")
     st.markdown(f"### 📊 Confidence: **{confidence:.2f}**")
+
