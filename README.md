@@ -1,3 +1,5 @@
+![Garbage Classifier Banner](Garbage%20Classifier%20Banner.png)
+
 # 🗑️ Garbage Classifier
 
 A deep learning model that classifies garbage images into **6 categories**:  
