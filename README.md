@@ -30,27 +30,19 @@ Metrics: **Accuracy**
 
 ---
 
-## 📈 Results
-- **Validation Accuracy:** `XX.XX%`  
-- **Macro F1-score:** `XX.XX`  
-
-### Accuracy Curve
-![Accuracy Curve](results/accuracy_curve.png)
-
-### Loss Curve
-![Loss Curve](results/loss_curve.png)
+### Accuracy & Loss Curves
+<p float="left">
+  <img src="results/accuracy_curve.png" width="400"/>
+  <img src="results/loss_curve.png" width="400"/>
+</p>
 
 ### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
+<img src="results/confusion_matrix.png" width="500"/>
 
----
-
-## 🔍 Sample Prediction
-Example of model prediction on validation data:
-
-| Input Image | Predicted Class | Confidence |
-|-------------|----------------|-------------|
-| ![Sample](results/sample_prediction.png) | Plastic | 94% |
+### Key Observations
+- The model achieves **73.89% validation accuracy**, but the **macro F1-score (0.15)** shows poor balance across classes.  
+- This suggests the model tends to predict certain classes more often while struggling with others.  
+- Future improvements should focus on **class balance, better augmentation, and experimenting with alternative architectures** (ResNet, EfficientNet).
 
 ---
 
