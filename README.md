@@ -15,6 +15,16 @@ Built with **TensorFlow / Keras** using **MobileNetV2 transfer learning** and fi
 - **Split:** 80% training / 20% validation  
 - **Augmentation:** rotation, zoom, shift, shear, horizontal flip  
 
+## 📊 Dataset
+
+The dataset used in this project is the **Garbage Classification dataset** from Kaggle:  
+[Garbage Classification (Kaggle)](https://www.kaggle.com/datasets/arfathbaig5/garbageclassification-final)  
+
+- **Classes:** Trash, Plastic, Paper, Metal, Glass, Cardboard  
+
+For this project, a **subset of 300 images per class** was used, with an **80/20 train-validation split**.  
+Data augmentation was applied to improve generalization.
+
 ---
 
 ## 🧠 Model Architecture
