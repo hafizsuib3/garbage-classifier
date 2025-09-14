@@ -1,1 +1,15 @@
+# Deep learning framework for model building and training (MobileNetV2, fine-tuning)
+tensorflow>=2.15.0  
+
+# Fundamental package for numerical arrays and preprocessing
+numpy  
+
+# Plotting library for accuracy/loss curves and confusion matrix visualization
+matplotlib  
+
+# Machine learning utilities for evaluation (classification report, confusion matrix)
+scikit-learn  
+
+# Image handling library (used under the hood by keras.preprocessing.image)
+Pillow  
 
