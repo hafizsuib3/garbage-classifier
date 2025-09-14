@@ -63,8 +63,30 @@ Example of model prediction on validation data:
 
 ---
 
-## 🚀 How to Run
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/garbage-classifier.git
-cd garbage-classifier
+## 🔧 Possible Improvements
+
+Although the model achieved good validation accuracy, there are ways to further improve:
+
+1. **Increase Dataset Size**  
+   - Collect more images per class (especially real-world garbage samples).  
+   - Apply more diverse augmentations (brightness, contrast, blur).
+
+2. **Try Different Architectures**  
+   - Test EfficientNet, ResNet50, or DenseNet for potentially better feature extraction.  
+
+3. **Hyperparameter Tuning**  
+   - Adjust learning rate, batch size, and dropout rates.  
+   - Use learning rate schedulers or optimizers like AdamW.
+
+4. **Class Balancing**  
+   - Ensure equal representation of all classes.  
+   - Use oversampling or synthetic data generation (SMOTE for images, GANs).
+
+5. **Cross-Validation**  
+   - Train with K-fold cross-validation to reduce variance and get a more reliable estimate.  
+
+6. **Model Deployment (Future Work)**  
+   - Convert to TensorFlow Lite for edge devices.  
+   - Wrap in a Streamlit or Flask app for easy user interaction.
+
+
